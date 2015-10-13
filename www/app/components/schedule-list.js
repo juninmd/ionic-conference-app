@@ -17,7 +17,7 @@ export class ScheduleList {
   constructor(nav: NavController) {
     console.log('this.data', this.data);
     this.nav = nav;
-  } 
+  }
 
   onInit() {
     console.log('onInit ScheduleList');
